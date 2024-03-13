@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\George\\source\\repos\\Seminar1-313\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|solutionrelative:Seminar1-313\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|solutionrelative:Seminar1-313\\sem1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|solutionrelative:Seminar1-313\\tests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|solutionrelative:Seminar1-313\\sem1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1F5AA20D-A1E9-46F6-924C-158CE4B69AE6}|Seminar1-313\\Seminar1-313.vcxproj|solutionrelative:Seminar1-313\\tests.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tests.h",
+              "DocumentMoniker": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.h",
+              "RelativeDocumentMoniker": "Seminar1-313\\tests.h",
+              "ToolTip": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.h",
+              "RelativeToolTip": "Seminar1-313\\tests.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T06:25:10.177Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tests.cpp",
+              "DocumentMoniker": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.cpp",
+              "RelativeDocumentMoniker": "Seminar1-313\\tests.cpp",
+              "ToolTip": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\tests.cpp",
+              "RelativeToolTip": "Seminar1-313\\tests.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T06:24:59.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sem1.h",
+              "DocumentMoniker": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.h",
+              "RelativeDocumentMoniker": "Seminar1-313\\sem1.h",
+              "ToolTip": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.h",
+              "RelativeToolTip": "Seminar1-313\\sem1.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-06T06:16:08.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\main.cpp",
+              "RelativeDocumentMoniker": "Seminar1-313\\main.cpp",
+              "ToolTip": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\main.cpp*",
+              "RelativeToolTip": "Seminar1-313\\main.cpp*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T06:16:01.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sem1.cpp",
+              "DocumentMoniker": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.cpp",
+              "RelativeDocumentMoniker": "Seminar1-313\\sem1.cpp",
+              "ToolTip": "C:\\Users\\George\\source\\repos\\Seminar1-313\\Seminar1-313\\sem1.cpp",
+              "RelativeToolTip": "Seminar1-313\\sem1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-06T06:15:56.27Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
