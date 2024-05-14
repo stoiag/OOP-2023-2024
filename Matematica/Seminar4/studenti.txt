@@ -1,0 +1,8 @@
+Tiberiu;60
+Ana;19
+Maria;19
+Ana;20
+Ana;19
+Maria;19
+Ana;20
+Ana;18
