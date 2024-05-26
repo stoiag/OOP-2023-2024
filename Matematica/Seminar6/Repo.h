@@ -20,9 +20,9 @@ public:
 	{
 		v.clear();
 	}
-	void addItem(T& item) {
+	void addItem(T item) {
 		//this->sv[noEntities++] = item;
-		this->v.push_back(item);
+		this->v.push_back(item->clone());
 	}
 	T getItemFromPos(int pos) {
 		//return this->sv[pos];
@@ -57,7 +57,7 @@ public:
 	void update_item(int i, T p) {
 		if (v.size() <= i || i < 0)
 			throw MyException("Index out of range");
-		v[i] = p;
+		v[i] = p->clone();
 	}
 };
 

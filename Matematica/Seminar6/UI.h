@@ -33,8 +33,47 @@ public:
 			service.addItem(&ps);
 		}
 		else {
-			throw MyException("acest  tip de produs nu exista");
+			throw MyException("acest tip de produs nu exista");
 		}
+	}
+	void uiStergere() {
+		try{
+			cout << "Alegeti indexul:";
+			int i;
+			cin >> i;
+		
+			service.eliminare(i);
+		}
+		catch (MyException& exc) {
+			cout << exc.getMessage() << endl;
+		}
+	}
+
+	void uiModificare() {
+		try {
+			string raspuns;
+			cout << "Alegeti indexul:";
+			int i;
+			cin >> i;
+			cout << "Alegeti tipul de produs:";
+			cin >> raspuns;
+			if (raspuns == "PD") {
+				ProdusDulce pd;
+				cin >> pd;
+				service.modificare(i, &pd);
+			}
+			else if (raspuns == "PS") {
+				ProdusSarat ps;
+				cin >> ps;
+				service.modificare(i, &ps);
+			}
+			else {
+				throw MyException("acest tip de produs nu exista");
+			}
+		}
+		catch (MyException& exc) {
+			cout << exc.getMessage() << endl;
+		}	
 	}
 	void uiGetItems() const {
 		vector<T> rez = service.getItems();
@@ -48,7 +87,8 @@ public:
 			cout << "- - - MENIU - - -" << endl;
 			cout << "1. adauga." << endl;
 			cout << "2. afiseaza. " << endl;
-			//cout << "3. sorteaza. " << endl;
+			cout << "3. eliminare element. " << endl;
+			cout << "4. Modificare element. " << endl;
 			cout << "0. exit" << endl;
 
 			cout << "alegeti optiunea: ";
@@ -62,6 +102,14 @@ public:
 				}
 				case 2: {
 					uiGetItems();
+					break;
+				}
+				case 3 : {
+					uiStergere();
+					break;
+				}
+				case 4: {
+					uiModificare();
 					break;
 				}
 				case 0: {

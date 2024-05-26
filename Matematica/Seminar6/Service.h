@@ -18,8 +18,26 @@ public:
 	void addItem(T elem) {
 		repo.addItem(elem);
 	}
+
 	vector<T> getItems() const {
 		return repo.getItems();
+	}
+	void eliminare(int i) {
+		try{
+			repo.delete_item(i);
+		}
+		catch (MyException& exc) {
+			throw exc;
+		}
+
+	}
+	void modificare(int i, T p) {
+		try {
+			repo.update_item(i, p);
+		}
+		catch (MyException& exc) {
+			throw exc;
+		}
 	}
 };
 

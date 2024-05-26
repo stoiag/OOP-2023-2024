@@ -18,6 +18,15 @@ ProdusSarat::ProdusSarat(const ProdusSarat& ps) : Produs(ps)
 	this->saruri = ps.saruri;
 }
 
+Produs* ProdusSarat::clone() {
+	ProdusSarat* newProdus = new ProdusSarat();
+	newProdus->setNume(nume);
+	newProdus->setPret(pret);
+	newProdus->setCod(cod);
+	newProdus->setSaruri(saruri);
+	return newProdus;
+}
+
 ProdusSarat::~ProdusSarat()
 {
 	cout << "destructor ProdusSarat" << endl;
@@ -37,7 +46,7 @@ void ProdusSarat::getDescriere() {
 	cout << "PS" << " " << cod << " " << nume << " " << pret << " " << saruri << endl;
 }
 
-std::istream& operator>>(std::istream& is, ProdusSarat ps) {
+std::istream& operator>>(std::istream& is, ProdusSarat& ps) {
 	cout << "cod: ";
 	is >> ps.cod;
 	if (ps.nume != NULL)

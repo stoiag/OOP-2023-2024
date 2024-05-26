@@ -15,9 +15,10 @@ public:
 	}
 	~Service() { }
 
-	void addItem(T& elem) {
+	void addItem(T elem) {
 		repo.addItem(elem);
 	}
+
 	vector<T> getItems() const {
 		return repo.getItems();
 	}

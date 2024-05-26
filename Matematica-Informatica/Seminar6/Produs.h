@@ -10,6 +10,7 @@ class Produs {
 		Produs(int, const char*, int);
 		Produs(const Produs&);
 		virtual ~Produs();
+		virtual Produs* clone();
 		int getPret();
 		char* getNume();
 		int getCod();
@@ -17,6 +18,6 @@ class Produs {
 		void setNume(const char*);
 		void setCod(int);
 		virtual void getDescriere();
-		friend std::istream& operator>>(std::istream& is, Produs p);
+		friend std::istream& operator>>(std::istream& is, Produs& p);
 };
 

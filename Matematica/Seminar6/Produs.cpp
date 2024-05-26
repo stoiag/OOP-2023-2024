@@ -25,6 +25,14 @@ Produs::Produs(const Produs& pr) {
 	cod = pr.cod;
 }
 
+Produs* Produs::clone() {
+	Produs* newProdus = new Produs();
+	newProdus->setNume(this->nume);
+	newProdus->pret = pret;
+	newProdus->cod = cod;
+	return newProdus;
+}
+
 Produs::~Produs() {
 	cout << "destructor Produs" << endl;
 	if (nume != NULL)
@@ -62,7 +70,7 @@ void Produs::getDescriere() {
 	cout << "P" << " " << cod << " " << nume << " " << pret << endl;
 }
 
-std::istream& operator>>(std::istream& is, Produs p) {
+std::istream& operator>>(std::istream& is, Produs& p) {
 	cout << "Cod:";
 	is >> p.cod;
 	if (p.nume != NULL)
